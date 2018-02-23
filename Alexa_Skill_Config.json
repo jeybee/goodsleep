@@ -1,0 +1,405 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "ElementTypes",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "temperature",
+              "synonyms": [
+                "heat",
+                "temp",
+                "cold"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "humidity",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sound",
+              "synonyms": [
+                "sound level",
+                "loudness",
+                "volume"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "light",
+              "synonyms": [
+                "light level",
+                "brightness"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "room",
+              "synonyms": [
+                "bedroom",
+                "it"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "TimePeriods",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "yesterday",
+              "synonyms": [
+                "last night",
+                "yesterday evening",
+                "yesterday night",
+                "previous night"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "today",
+              "synonyms": [
+                "now",
+                "currently"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "last week",
+              "synonyms": [
+                "last monday",
+                "monday",
+                "last tuesday",
+                "tuesday",
+                "last wednesday",
+                "wednesday",
+                "last thursday",
+                "thursday",
+                "last friday",
+                "friday",
+                "last saturday",
+                "saturday",
+                "last sunday",
+                "sunday",
+                "previous week",
+                "a week ago",
+                "week ago"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "TimeZones",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "AKDT",
+              "synonyms": [
+                "U. T. C. minus 8",
+                "A. K. D. T.",
+                "Alaska Daylight Time"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "AKST",
+              "synonyms": [
+                "U. T. C. minus 9",
+                "A. K. S. T.",
+                "Alaska Standard Time"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "CDT",
+              "synonyms": [
+                "U. T. C. minus 5",
+                "C. D. T.",
+                "Central Daylight Time"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "CST",
+              "synonyms": [
+                "U. T. C. minus 6",
+                "C. S. T.",
+                "Central Standard Time",
+                "Central Time",
+                "Central"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "EDT",
+              "synonyms": [
+                "U. T. C. minus 4",
+                "E. D. T.",
+                "Eastern Daylight Time"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "EST",
+              "synonyms": [
+                "U. T. C. minus 5",
+                "E. S. T.",
+                "Eastern Standard Time",
+                "Eastern Time",
+                "Eastern"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "UTC",
+              "synonyms": [
+                "U. T. C. plus zero",
+                "G. M. T.",
+                "Greenwich Mean Time",
+                "U. T. C.",
+                "Coordinated Universal Time"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "HDT",
+              "synonyms": [
+                "U. T. C. minus 9",
+                "H. D. T.",
+                "Hawaii–Aleutian Daylight Time",
+                "Hawaii Daylight Time"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "HST",
+              "synonyms": [
+                "U. T. C. minus 10",
+                "H. S. T.",
+                "Hawaii–Aleutian Standard Time",
+                "Hawaii Time"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "MDT",
+              "synonyms": [
+                "U. T. C. minus 6",
+                "M. D. T.",
+                "Mountain Daylight Time"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "MST",
+              "synonyms": [
+                "U. T. C. minus 7",
+                "M. S. T.",
+                "Mountain Standard Time",
+                "Mountain Time",
+                "Mountain"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "PDT",
+              "synonyms": [
+                "U. T. C. minus 7",
+                "P. D. T.",
+                "Pacific Daylight Time"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "PST",
+              "synonyms": [
+                "U. T. C. minus 8",
+                "P. S. T.",
+                "Pacific Standard Time",
+                "Pacific Time",
+                "Pacific"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.MoreIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.NavigateSettingsIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.NextIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PageDownIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PageUpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PreviousIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ScrollDownIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ScrollLeftIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ScrollRightIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ScrollUpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "EnterPin",
+        "samples": [
+          "{PinNumber}",
+          "The pin is {PinNumber}",
+          "pin is {PinNumber}",
+          "it's {PinNumber}"
+        ],
+        "slots": [
+          {
+            "name": "PinNumber",
+            "type": "AMAZON.FOUR_DIGIT_NUMBER"
+          }
+        ]
+      },
+      {
+        "name": "SetTimeZone",
+        "samples": [
+          "{TimeZone}",
+          "i'm in {TimeZone}",
+          "it's {TimeZone}"
+        ],
+        "slots": [
+          {
+            "name": "TimeZone",
+            "type": "TimeZones"
+          }
+        ]
+      },
+      {
+        "name": "SpecificStatus",
+        "samples": [
+          "how was the {Element} {RequestDate}",
+          "how is the {Element}",
+          "what is the {Element}",
+          "what was the {Element} ",
+          "what was the {Element} {RequestDate}",
+          "what is the {Element} {RequestDate}"
+        ],
+        "slots": [
+          {
+            "name": "Element",
+            "type": "ElementTypes"
+          },
+          {
+            "name": "RequestDate",
+            "type": "TimePeriods"
+          }
+        ]
+      },
+      {
+        "name": "TimeResponse",
+        "samples": [
+          "{SleepTime}",
+          "Around {SleepTime}",
+          "At {SleepTime}",
+          "I wake up at {SleepTime}",
+          "I go to bed at {SleepTime}",
+          "I wake up around {SleepTime}",
+          "I go to bed around {SleepTime}",
+          "On weekends around {SleepTime}",
+          "On weekdays around {SleepTime}",
+          "On weekdays I go to bed at {SleepTime}",
+          "On weekends I go to bed at {SleepTime}",
+          "I go to sleep around {SleepTime}",
+          "I sleep around {SleepTime}",
+          "I sleep at {SleepTime}",
+          "I go to sleep at {SleepTime}",
+          "I usually sleep around {SleepTime}",
+          "I usually sleep at {SleepTime}"
+        ],
+        "slots": [
+          {
+            "name": "SleepTime",
+            "type": "AMAZON.TIME"
+          }
+        ]
+      }
+    ],
+    "invocationName": "good sleep"
+  }
+}

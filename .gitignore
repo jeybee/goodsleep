@@ -1,0 +1,6 @@
+project/
+node_modules/
+index.zip
+publish.sh
+server_publish.sh
+.DS_Store

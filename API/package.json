@@ -1,0 +1,11 @@
+{
+  "name": "sleepMonitorApi",
+  "version": "0.0.1",
+  "description": "Sleep Monitor",
+  "main": "index.js",
+  "dependencies": {
+    "chart.js": "<=2.6.*",
+    "chartjs-node": "*",
+    "lz-string": "*"
+  }
+}

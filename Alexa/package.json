@@ -1,0 +1,12 @@
+{
+  "name": "sleepMonitorAlexa",
+  "version": "0.0.1",
+  "description": "Sleep Monitor",
+  "main": "index.js",
+  "dependencies": {
+    "alexa-sdk": "1.0.21",
+    "aws-sdk": "^2.51.0",
+    "lz-string": "*",
+    "moment-timezone": "*"
+  }
+}

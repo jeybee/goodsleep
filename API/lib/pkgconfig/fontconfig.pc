@@ -1,0 +1,18 @@
+prefix=/canvas
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+sysconfdir=${prefix}/etc
+localstatedir=${prefix}/var
+PACKAGE=fontconfig
+confdir=${sysconfdir}/fonts
+cachedir=${localstatedir}/cache/${PACKAGE}
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.11.1
+Requires:  freetype2
+Requires.private:  libxml-2.0
+Libs: -L${libdir} -lfontconfig
+Libs.private:  -L/canvas/lib -lfreetype    -L/canvas/lib -lxml2  
+Cflags: -I${includedir}  -I/canvas/include/freetype2 -I/canvas/include/libpng16    -I/canvas/include/libxml2  

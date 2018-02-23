@@ -1,0 +1,14 @@
+prefix=/canvas
+exec_prefix=/canvas
+libdir=/canvas/lib
+includedir=/canvas/include/freetype2
+
+Name: FreeType 2
+URL: http://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 18.0.12
+Requires:
+Requires.private: zlib, libpng
+Libs: -L${libdir} -lfreetype
+Libs.private: 
+Cflags: -I${includedir}
